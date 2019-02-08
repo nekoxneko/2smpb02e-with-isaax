@@ -16,7 +16,8 @@ Highcharts.chart('chart', {
                     py = res.body.pressure,
                     ty = res.body.temperature;
                 
-                if (py < series.yAxis.oldMin | !series.yAxis.oldMin) {
+                ////if (py < series.yAxis.oldMin | !series.yAxis.oldMin) {
+                if (ty < series.yAxis.oldMin | !series.yAxis.oldMin) {
                     series.yAxis.update({min: py});
                 }
                 series.addPoint([x, py], true, true);
