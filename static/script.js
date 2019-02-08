@@ -25,7 +25,7 @@ Highcharts.chart('chart', {
                 }
                 series.addPoint([x, ty], true, true);
               });
-          }, (1000 * 1));
+          }, (1000 * 5));
         } 
       }
     },
