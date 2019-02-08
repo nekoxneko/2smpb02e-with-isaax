@@ -39,7 +39,8 @@ Highcharts.chart('chart', {
       }
     },
     series: [{
-      name: 'Pressure',
+      ////name: 'Pressure',
+      name: 'Templerature',
       data: (function () {
         let data = [],
             time = (new Date()).getTime(),
