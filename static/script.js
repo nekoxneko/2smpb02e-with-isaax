@@ -26,14 +26,16 @@ Highcharts.chart('chart', {
       }
     },
     title: {
-      text: 'Pressure'
+      ///text: 'Pressure'
+      text: 'Templerature'
     },
     xAxis: {
       type: 'datetime'
     },
     yAxis: {
       title: {
-        text: 'hPa' 
+        ///text: 'hPa' 
+        text: '℃' 
       }
     },
     series: [{
